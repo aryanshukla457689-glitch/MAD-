@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center_horizontal">
+
+
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:id="@+id/et_fullName"
+        android:inputType="textPersonName"
+        android:background="@color/lgray"
+        android:layout_marginTop="40dp"
+        android:textColorHint="@color/black">
+
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email "
+        android:id="@+id/et_emailId"
+        android:inputType="textPassword"
+        android:background="@color/lgrey"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:background="@color/lgrey"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:id="@+id/et_confirmPassword"
+        android:inputType="textPassword"
+        android:background="@color/lgrey"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:id="@+id/bt_register"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_account"
+        android:id="@+id/tv_alreadyhaveanaccount"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+</LinearLayout>

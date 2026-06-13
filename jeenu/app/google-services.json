@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116598727988",
+    "project_id": "jeenu2",
+    "storage_bucket": "jeenu2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116598727988:android:a7d7a2610b25e4dc23f161",
+        "android_client_info": {
+          "package_name": "com.techiguru.jeenu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-vjF7SDlSGVUc-JvzOO3zcL6Qocir5cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
